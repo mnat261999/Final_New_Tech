@@ -1,0 +1,93 @@
+.products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center;
+    margin: 20px 0;
+}
+.dp-n{
+    display:none;
+}
+/* ----------- Product Item ----------------- */
+@import url("../utils/productItem/productitem.css");
+
+.delete-all{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.delete-all input{
+    height: 25px;
+    width: 25px;
+    /* transform: translateY(5px); */
+    margin: 0 15px;
+}
+.delete-all span{
+    text-transform: uppercase;
+    color: rgb(3, 165, 206);
+    letter-spacing: 1.3px;
+}
+/* .delete-all button{
+    border: 1px solid crimson;
+    padding: 10px 25px;
+    color: crimson;
+    text-transform: uppercase;
+} */
+.card-header_border{
+    border-radius: 0 !important;
+}
+.row-dp{
+    display: flex;
+    justify-content: space-between;
+}
+.card-border{
+    border:none;
+}
+/* ------------ Filters Menu ----------------- */
+.filter_display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter_menu{
+    width: 100%;
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+.filter_menu select, input{
+    border: 1px solid #ccc;
+    outline: none;
+    height: 40px;
+    padding: 0 5px;
+}
+.filter_menu input{
+    flex: 1;
+    margin: 0 10px;
+}
+.filter_mbt{
+    margin-bottom: 0;
+}
+@media (min-width: 576px)
+{
+    .jumbotron {
+        padding: 1.5rem 1rem;
+    }
+}
+/* -------------------- Load More --------------- */
+.load_more{
+    text-align: center;
+}
+.load_more button{
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    text-transform: capitalize;
+}
