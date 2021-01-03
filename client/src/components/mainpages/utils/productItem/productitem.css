@@ -4,7 +4,7 @@
     height: 520px;
     padding: 15px;
     box-shadow: 0 0 15px #ddd;
-    margin: 10px 5px;
+    margin: 10px 37px;
     position: relative;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
@@ -25,6 +25,11 @@
     color: #323232;
     font-size: 30px;
 }
+.col p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
 .product_card span{
     color: crimson;
 }
@@ -39,7 +44,7 @@
 }
 .row_btn{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -67,4 +72,8 @@
 .product_border{
     border: none;
     border-radius: .25rem;
+}
+.col-custom{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
 }

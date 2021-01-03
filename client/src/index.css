@@ -159,7 +159,7 @@ button{
     width: 90% !important;
   }
   .form-control-custom-search{
-    margin-left: 50px;
+    margin-left: 54px;
   }
 }
 @media (max-width: 375px){
@@ -167,8 +167,8 @@ button{
     margin-left: 13px;
   }
   .form-control-custom-search{
-    margin-left: 45px;
-    width: 85% !important;
+    margin-left: 46px;
+    width: 86% !important;
   }
 }
 @media (min-width:414px ) and (max-width:414px)
@@ -177,12 +177,15 @@ button{
     width: 87% !important;
   }
   .form-control-custom-search{
-    margin-left: 43px;
+    margin-left: 47px;
+    width: 87% !important;
+  }
+  .form-control-custom-filter{
     width: 87% !important;
   }
 }
 @media (max-width: 320px){
   .form-control-custom-search{
-    width: 82% !important;
+    width: 83% !important;
   }
 }

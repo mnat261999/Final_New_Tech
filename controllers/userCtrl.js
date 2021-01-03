@@ -87,7 +87,7 @@ const userCtrl = {
             res.cookie('refreshtoken', refresh_token, {
                 httpOnly: true,
                 path: '/user/refresh_token',
-                maxAge: 60000 //7 days
+                maxAge: 7*24*60*60*1000 //7 days
             })
 
             console.log(user)
@@ -352,6 +352,6 @@ const createAccessToken = (payload) => {
 }
 
 const createRefreshToken = (payload) => {
-    return jwt.sign(payload, process.env.REFRESH_TOKEN_SECRET, {expiresIn: '120s'})
+    return jwt.sign(payload, process.env.REFRESH_TOKEN_SECRET, {expiresIn: '7d'})
 }
 module.exports = userCtrl

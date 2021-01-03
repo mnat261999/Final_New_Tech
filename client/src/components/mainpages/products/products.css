@@ -5,6 +5,7 @@
     justify-items: center;
     margin: 20px 0;
 }
+
 .dp-n{
     display:none;
 }
@@ -39,10 +40,7 @@
 .card-header_border{
     border-radius: 0 !important;
 }
-.row-dp{
-    display: flex;
-    justify-content: space-between;
-}
+
 .card-border{
     border:none;
 }
@@ -90,4 +88,20 @@
     margin-bottom: 20px;
     border: 1px solid #555;
     text-transform: capitalize;
+}
+
+/* .container-custom{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+} */
+
+@media (max-width: 1024px)
+{
+    .jumbotron {
+        padding: 1.5rem 1rem;
+    }
+    .row-dp{
+        display: flex;
+        justify-content: center;
+    }
 }

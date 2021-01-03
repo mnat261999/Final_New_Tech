@@ -21,7 +21,7 @@ function Filters() {
             <div className="row">
                 <div class="col-custom col filter_display">
                 <span>Filters: </span>
-                <select class="form-control-custom form-control" name="category" value={category} onChange={handleCategory} >
+                <select class="form-control-custom form-control-custom-filter form-control" name="category" value={category} onChange={handleCategory} >
                     <option value=''>All Products</option>
                     {
                         categories.map(category => (

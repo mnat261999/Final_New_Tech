@@ -81,7 +81,7 @@ function Products(){
                 
             </div>
             <div class="card-body">
-            <div className="container">
+            <div className="container-custom container">
             <div class="row-dp row">
             {
                 products.map(product => {
